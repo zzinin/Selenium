@@ -11,10 +11,21 @@
       <class name="com.w2a.testcases.AddCustomerTest">
         <methods>
           <include name="setUp"/>
-          <include name="addCustomerTest" invocation-numbers="1"/>
+          <include name="addCustomerTest" invocation-numbers="0 1 2 3"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.w2a.testcases.AddCustomerTest -->
     </classes>
   </test> <!-- Add Customer Test(failed) -->
+  <test name="Open Account Test(failed)">
+    <classes>
+      <class name="com.w2a.testcases.OpenAccountTest">
+        <methods>
+          <include name="openAccountTest" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.w2a.testcases.OpenAccountTest -->
+    </classes>
+  </test> <!-- Open Account Test(failed) -->
 </suite> <!-- Failed suite [Data Driven Basics] -->
